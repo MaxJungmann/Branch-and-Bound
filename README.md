@@ -22,8 +22,8 @@ Moreover, the algorithm maintains and improves upper and lower bounds for the op
 
 
 # Project organization
-1. The actual algorithm is implemented in [main.py](\main.py) and uses some auxiliary functions from [aux_fct.py](\aux_fct.py). Moreover, the algorithm requires several user-defined heuristics to make certain decisions along the algorithm. These are implemented in [heuristics.py](\heuristics.py). Feel free to modify these heuristics for your own purposes!
-2. The file [example.py](\example.py) illustrates the usage of the algorithm on a randomized sample problem. The development of the optimality gap is plotted using [plot_optimality_gap.py](\plot_optimality_gap.py) and is saved to [optimality_gap.png](\optimality_gap.png).
-3. The implementation is tested in [tests.py](\tests.py).
+1. The actual algorithm is implemented in [main.py](/main.py) and uses some auxiliary functions from [aux_fct.py](/aux_fct.py). Moreover, the algorithm requires several user-defined heuristics to make certain decisions along the algorithm. These are implemented in [heuristics.py](/heuristics.py). Feel free to modify these heuristics for your own purposes!
+2. The file [example.py](/example.py) illustrates the usage of the algorithm on a randomized sample problem. The development of the optimality gap is plotted using [plot_optimality_gap.py](/plot_optimality_gap.py) and is saved to [optimality_gap.png](/optimality_gap.png).
+3. The implementation is tested in [tests.py](/tests.py).
 
 
