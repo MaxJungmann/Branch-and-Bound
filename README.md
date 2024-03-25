@@ -1,6 +1,6 @@
 # Branch-and-Bound algorithm for solving integer linear programs
 
-To deepen my knowledge about Integer Programming I implemented a branch-and-bound algorithm. A branch-and-bound algorithm is the standard approach to solve general integer linear programs (IP). 
+To deepen my knowledge about Integer Programming I implemented a branch-and-bound algorithm in Python. A branch-and-bound algorithm is the standard approach to solve general integer linear programs (IP). 
 An integer linear program is a discrete optimization problem of the form
 
 $$\begin{equation} \tag{IP}
