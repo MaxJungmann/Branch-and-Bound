@@ -1,7 +1,7 @@
-# Branch-and-Bound algorithm for solving integer linear programs
+# Branch-and-Bound algorithm for solving integer programs
 
-To deepen my knowledge about Integer Programming I implemented a branch-and-bound algorithm in Python. A branch-and-bound algorithm is the standard approach to solve general integer linear programs (IP). 
-An integer linear program is a discrete optimization problem of the form
+To deepen my understanding about Integer Programming I implemented a branch-and-bound algorithm in Python. A branch-and-bound algorithm is the standard approach to solve general integer (linear) programs (IPs). 
+An integer program is a discrete optimization problem of the form
 
 $$\begin{equation} \tag{IP}
     \begin{aligned} 
@@ -14,9 +14,9 @@ $$\begin{equation} \tag{IP}
 
 For a thorough introduction to Integer Programming see for instance [here](https://web.mit.edu/15.053/www/AMP-Chapter-09.pdf). Section 9.5 also explains the branch-and-bound algorithm in detail. 
 
-The basic idea of this branch-and-bound algorithm is to iteratively solve refined linear programming (LP) relaxations of the integer program (i.e. allow also fractional values for the variables). In order to solve these LP relaxations along the algorithm I used the commercial solver Gurobi. A free academic Gurobi license can be obtained [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
+The basic idea of this branch-and-bound algorithm is to iteratively solve refined linear programming (LP) relaxations of the integer program (i.e. to allow also fractional values for the variables). In order to solve these LP relaxations along the algorithm I used the commercial solver Gurobi. A free academic Gurobi license can be obtained from [here](https://www.gurobi.com/academia/academic-program-and-licenses/).
 
-Moreover, the algorithm maintains and improves upper and lower bounds for the optimal value in each iteration. As soon as these bounds are close enough the algorithm terminates. The image below shows the absolute and relative behaviour of these bounds for a specific instance. 
+Moreover, the algorithm maintains and improves upper and lower bounds for the optimal value in each iteration. As soon as these bounds are close enough to each other the algorithm terminates. The image below shows the absolute and relative behaviour of these bounds for a specific instance. 
 
 ![](/optimality_gap.png)
 
