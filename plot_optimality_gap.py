@@ -6,11 +6,6 @@ branch-and-bound algorithm from main.py.
 import numpy as np 
 import matplotlib.pyplot as plt 
 from main import branch_and_bound
-from heuristics import pick_subproblem, pick_variable, feasibility_heuristic
-
-
-parameters = {"pick_subproblem": pick_subproblem, "pick_variable": pick_variable, "feasibility_heuristic": feasibility_heuristic, 
-              "max_iter": 10000, "opt_gap": 0.001}
 
 
 def plot_optimality_gap(A,b,c, parameters):
