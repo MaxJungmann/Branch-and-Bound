@@ -6,7 +6,7 @@ An integer program is a discrete optimization problem of the form
 $$\begin{equation} \tag{IP}
     \begin{aligned} 
         \text{maximize} \quad    & c^\top x \\
-        \text{subject to} \quad  & Ax <= b \\
+        \text{subject to} \quad  & Ax \leq b \\
                                  & x \geq 0 \\
                                  & x \in \mathbb{Z}^n .
     \end{aligned}
